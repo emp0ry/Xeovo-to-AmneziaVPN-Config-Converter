@@ -4,7 +4,7 @@ A Python script that converts Xeovo VPN `.conf` files into an `AmneziaVPN.backup
 
 ## 🚀 Features
 - **Converts Xeovo VPN Configs**: Parses a Xeovo VPN `.conf` file and generates an `AmneziaVPN.backup` file.
-- **Multiple Server Support**: Creates configurations for 23 server locations, including Albania (Tirana), Brazil (São Paulo), Germany (Falkenstein), and more.
+- **Multiple Server Support**: Creates configurations for 23 server locations, including Albania (Tirana), ~Brazil (São Paulo)~, Germany (Falkenstein), and more.
 - **File Explorer Integration**: Uses `tkinter` to provide a graphical file selection dialog for choosing the `.conf` file.
 - **Dynamic Endpoint Updates**: Automatically updates the `Endpoint` in the configuration for each server (e.g., `al.gw.xeovo.com`, `au.gw.xeovo.com`).
 - **AmneziaVPN Compatibility**: Outputs a JSON-structured `AmneziaVPN.backup` file with a properly formatted `Servers/serversList` string and escaped `last_config` fields.
